@@ -1,0 +1,29 @@
+.firstDiv{
+    color: red;
+}
+/* . is for class */
+.secondDiv{
+    color: aqua;
+}
+/* # is for id */
+#singledout{
+    color: blueviolet;
+    text-decoration: line-through;
+
+}
+/* * is for all  page
+*{
+    //code
+} */
+/* + says select all ul element immedietly after h3 */
+h3 + ul{
+    border: 4px dotted purple; 
+}
+li a{
+    color: violet;
+}
+/* for particular link */
+li a[href="www.w3schools.com"]{
+    color: red;
+    border: 3px dotted orange;
+}
